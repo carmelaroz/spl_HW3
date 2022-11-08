@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/connectionHandler.h
+string
+-
+iostream
+-
+boost/asio.hpp
+-
+
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/readFromKeyboardThread.h
+connectionHandler.h
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/connectionHandler.h
+
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/readFromSocketThread.h
+connectionHandler.h
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/connectionHandler.h
+
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/src/client.cpp
+iostream
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/src/iostream
+thread
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/src/thread
+boost/asio.hpp
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/src/boost/asio.hpp
+../include/connectionHandler.h
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/connectionHandler.h
+../include/readFromSocketThread.h
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/readFromSocketThread.h
+../include/readFromKeyboardThread.h
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/readFromKeyboardThread.h
+
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/src/connectionHandler.cpp
+../include/connectionHandler.h
+/users/studs/bsc/2022/ruzhinsk/CLionProjects/client/include/connectionHandler.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -lboost_system -lboost_thread -pthread -g CMakeFiles/client.dir/src/client.cpp.o CMakeFiles/client.dir/src/connectionHandler.cpp.o CMakeFiles/client.dir/src/readFromKeyboardThread.cpp.o CMakeFiles/client.dir/src/readFromSocketThread.cpp.o -o client  /usr/lib/x86_64-linux-gnu/libboost_system.so 

@@ -1,0 +1,4 @@
+/users/studs/bsc/2022/ruzhinsk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /users/studs/bsc/2022/ruzhinsk/CLionProjects/client
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /users/studs/bsc/2022/ruzhinsk/CLionProjects/client/cmake-build-debug
