@@ -1,4 +1,8 @@
-The program implements a simple social network server and client system using a binary communication protocol. Users can register, log in, follow other users, and post messages. The server supports push notifications for real-time updates, meaning it can broadcast messages to clients without explicit requests. The server is built using Thread-Per-Client (TPC) and Reactor models and handles various commands defined by opcodes. These commands include registering users, logging in, posting messages, and more. The server manages user data in memory during its runtime, and all interactions between clients and the server are processed through predefined message formats and lengths
+The program implements a simple social network server and client system using a binary communication protocol. Users can register, log in, follow other users, and post messages.
+The server supports push notifications for real-time updates, meaning it can broadcast messages to clients without explicit requests.
+The server is built using Thread-Per-Client (TPC) and Reactor models and handles various commands defined by opcodes.
+These commands include registering users, logging in, posting messages, and more. The server manages user data in memory during its runtime,
+and all interactions between clients and the server are processed through predefined message formats and lengths
 
 1.1) run the server:
 mvn clean
